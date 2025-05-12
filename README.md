@@ -56,7 +56,6 @@ Build a service that tracks Nouns DAO auctions, enriches each auction event with
 ## Bonus Points
 
 * Cache ENS and price lookups with a sensible TTL.
-* Back‑fill the last *N* auctions on startup so the feed isn’t empty.
 * Health‑check and metrics endpoints for monitoring.
 * Sign‑In with Ethereum (EIP‑4361) so only authenticated users can subscribe to realtime events.
 * A minimal front end application that visualises the live feed.
